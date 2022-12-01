@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  border-bottom: 1px solid var(--gray400);
+  padding-bottom: 1.5rem;
+}
+
+.created {
+  display: flex;
+  align-items: center;
+  color: var(--blue);
+  gap: 0.5rem;
+}
+
+.done {
+  display: flex;
+  align-items: center;
+  color: var(--purple);
+  gap: 0.5rem;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  background: var(--gray400);
+  color: var(--gray100);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.tasksEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5rem;
+  gap: 0.5rem;
+  color: var(--gray300);
+}
+
+.tasksEmpty p {
+  display: flex;
+  justify-content: center;
+}
