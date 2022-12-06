@@ -20,6 +20,7 @@ Conceitos:
 
 Tecnologias:
 
+- typescript
 - phosphor-react    
 - react-hook-form
 - @hookform/resolvers
